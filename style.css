@@ -44,6 +44,10 @@ nav a:hover{
     border-bottom: 3px solid #f9f9f9;
 }
 
+#main {
+    width: 680px;
+    float: left;
+}
 #main h1{
     font-size: 36px;
     padding-left: 8px;
@@ -103,7 +107,7 @@ p{
 }
 
 .header-container{
-    width: 608px;
+    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
 /*    background: #fff;*/
@@ -111,7 +115,7 @@ p{
 }
 
 .container{
-    width: 608px;
+    width: 1000px;
     margin: 0 auto;
     overflow: hidden;
     background: #fff;
@@ -120,4 +124,26 @@ p{
 
 .content:last-child{
     border-bottom: 0;
+}
+
+
+
+#sidebar{
+    float: left;
+    width: 280px;
+    margin: 0px 12px;
+    background: #fff;
+    padding: 8px;
+}
+#sidebar img{
+    margin-bottom: 16px;
+    
+}
+#sidebar h3{
+    font-size: 20px;
+    margin-bottom: 8px;
+    
+}
+#sidebar p{
+    font-size: 16px;
 }
